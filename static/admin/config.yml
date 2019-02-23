@@ -21,11 +21,11 @@ collections:
 
   - name: "pages"
     label: "Pages"
+    create: true
     files:
       - file: "src/pages/index.md"
         label: "Landing Page"
         name: "Index Page"
-        create: true
         fields:
           - {label: "Template Key", name: "templateKey", widget: "hidden", default: "index-page"}
           - {label: Title, name: title, widget: string}
